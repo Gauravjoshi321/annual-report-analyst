@@ -25,6 +25,7 @@
     "fastify": "^5.12.7",
     "langchain": "^1.6.0",
     "langsmith": "^0.11.4",
+    "pdf-parse": "^2.4.5",
     "pg": "^8.23.1",
     "voyageai": "^0.4.0",
     "zod": "^4.6.7"

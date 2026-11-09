@@ -6,3 +6,15 @@ services:
     environment:
       PORT: 3000
       LOG_LEVEL: info
+
+  # Docling: PDF -> structured Markdown/JSON (layout, tables, OCR).
+  # API on http://localhost:5001, docs at /docs, test UI at /ui.
+  docling:
+    image: quay.io/docling-project/docling-serve-cpu:latest
+    ports:
+      - "5001:5001"
+    environment:
+      DOCLING_SERVE_ENABLE_UI: "true"
+      # Big annual reports take minutes to parse; default sync wait is too short.
+      DOCLING_SERVE_MAX_SYNC_WAIT: "1800"
+    restart: unless-stopped
