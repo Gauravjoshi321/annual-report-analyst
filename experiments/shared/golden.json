@@ -1,0 +1,231 @@
+{
+  "source": "experiments/data/raw/infosysReport.pdf",
+  "notes": "pages = PDF page numbers (viewer toolbar), not printed numbers. A retrieved chunk is a hit if its pages overlap the question's pages. `check` = exact strings that must appear on at least one listed page (used to validate this file).",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "table",
+      "question": "What was Infosys's consolidated revenue for fiscal 2026?",
+      "answer": "₹1,78,650 crore",
+      "pages": [287, 33],
+      "section": "Consolidated Financial Statements",
+      "check": ["1,78,650"]
+    },
+    {
+      "id": "q02",
+      "type": "table",
+      "question": "How much goodwill was on the consolidated balance sheet at the end of FY26?",
+      "answer": "₹12,117 crore (vs ₹10,106 crore a year earlier)",
+      "pages": [285, 76],
+      "section": "Consolidated Financial Statements",
+      "check": ["12,117"]
+    },
+    {
+      "id": "q03",
+      "type": "table",
+      "question": "What net profit was attributable to the owners of the company on a consolidated basis in FY26?",
+      "answer": "₹29,440 crore",
+      "pages": [288, 34],
+      "section": "Consolidated Financial Statements",
+      "check": ["29,440"]
+    },
+    {
+      "id": "q04",
+      "type": "table",
+      "question": "What was the consolidated basic earnings per share for the year?",
+      "answer": "₹71.58",
+      "pages": [288, 81, 16],
+      "section": "Consolidated Financial Statements",
+      "check": ["71.58"]
+    },
+    {
+      "id": "q05",
+      "type": "table",
+      "question": "How much did the group spend on employee benefits in fiscal 2026?",
+      "answer": "₹95,094 crore (consolidated)",
+      "pages": [287],
+      "section": "Consolidated Financial Statements",
+      "check": ["95,094"]
+    },
+    {
+      "id": "q06",
+      "type": "table",
+      "question": "What was the employee attrition rate in fiscal 2026?",
+      "answer": "12.6% overall voluntary attrition (13.2% male, 11.6% female)",
+      "pages": [144],
+      "section": "Business Responsibility and Sustainability Report",
+      "check": ["12.6"]
+    },
+    {
+      "id": "q07",
+      "type": "table",
+      "question": "How many days does it take Infosys to collect payment from clients on average?",
+      "answer": "67 days DSO in FY26 (69 days in FY25)",
+      "pages": [76, 81, 319],
+      "section": "Management's discussion and analysis",
+      "check": ["67"]
+    },
+    {
+      "id": "q08",
+      "type": "table",
+      "question": "How much did Infosys spend on CSR projects during the year?",
+      "answer": "₹547.50 crore on CSR projects (obligation ₹577.36 crore)",
+      "pages": [65],
+      "section": "Annexures to the Board's report",
+      "check": ["547.50"]
+    },
+    {
+      "id": "q09",
+      "type": "narrative",
+      "question": "What is the company's policy on returning cash to shareholders?",
+      "answer": "Return ~85% of free cash flow cumulatively over a 5-year period via semi-annual dividends and/or buybacks/special dividends",
+      "pages": [36, 26, 38],
+      "section": "Board's report",
+      "check": ["85% of the free cash flow"]
+    },
+    {
+      "id": "q10",
+      "type": "narrative",
+      "question": "Who audits Infosys's financial statements?",
+      "answer": "Deloitte Haskins & Sells LLP",
+      "pages": [43, 59, 82],
+      "section": "Board's report",
+      "check": ["Deloitte Haskins & Sells LLP"]
+    },
+    {
+      "id": "q11",
+      "type": "narrative",
+      "question": "How many times did the board of directors meet during the year?",
+      "answer": "Eight times",
+      "pages": [41],
+      "section": "Board's report",
+      "check": ["met eight times"]
+    },
+    {
+      "id": "q12",
+      "type": "narrative",
+      "question": "For how long has Infosys been carbon neutral?",
+      "answer": "Carbon neutral since fiscal 2020; FY26 is the 7th consecutive year",
+      "pages": [69, 9, 16],
+      "section": "Natural Capital",
+      "check": ["carbon neutral"]
+    },
+    {
+      "id": "q13",
+      "type": "narrative",
+      "question": "How is Infosys mitigating the risk of not keeping up with AI?",
+      "answer": "Innovating AI-first offerings and industry solutions, continued investment in AI offerings, AI talent transformation, building deep AI engineering expertise",
+      "pages": [133],
+      "section": "Risk management report",
+      "check": ["AI talent transformation"]
+    },
+    {
+      "id": "q14",
+      "type": "narrative",
+      "question": "Why are global capability centers a risk for the business?",
+      "answer": "Clients insourcing work into their own GCCs can shrink Infosys's addressable market, hurting growth and profitability",
+      "pages": [133],
+      "section": "Risk management report",
+      "check": ["Global Capability"]
+    },
+    {
+      "id": "q15",
+      "type": "narrative",
+      "question": "What results did Infosys deliver for Hertz?",
+      "answer": "Modernized critical (COBOL/mainframe) workflows 60% faster with AI-first code engineering",
+      "pages": [4],
+      "section": "Client stories",
+      "check": ["60%"]
+    },
+    {
+      "id": "q16",
+      "type": "profile",
+      "question": "When did Salil Parekh first join the board?",
+      "answer": "January 2, 2018 (reappointed July 1, 2022)",
+      "pages": [12, 117],
+      "section": "The Infosys Board of Directors",
+      "check": ["2018"]
+    },
+    {
+      "id": "q17",
+      "type": "profile",
+      "question": "How long has the CEO been on the board and how many shares does he hold?",
+      "answer": "8.3 years tenure; 13,89,633 shares (0.03%)",
+      "pages": [12],
+      "section": "The Infosys Board of Directors",
+      "check": ["8.3 years", "13,89,633"]
+    },
+    {
+      "id": "q18",
+      "type": "profile",
+      "question": "What share of the workforce are women?",
+      "answer": "39.5%",
+      "pages": [25, 27, 143],
+      "section": "Human Capital",
+      "check": ["39.5"]
+    },
+    {
+      "id": "q19",
+      "type": "multi",
+      "question": "How fast did consolidated revenue grow compared to the previous year?",
+      "answer": "9.6% YoY (₹1,62,990 crore → ₹1,78,650 crore); 3.1% in constant currency",
+      "pages": [33, 16, 26],
+      "section": "Board's report",
+      "check": ["9.6"]
+    },
+    {
+      "id": "q20",
+      "type": "multi",
+      "question": "What was the total dividend per share for the year and how was it split?",
+      "answer": "₹48 per share: interim ₹23 + final ₹25",
+      "pages": [36, 18],
+      "section": "Board's report",
+      "check": ["final dividend of `25"]
+    },
+    {
+      "id": "q21",
+      "type": "multi",
+      "question": "How big were the large deal wins this year and how much of it was net new?",
+      "answer": "US$14.9 billion large deal TCV, 55% net new",
+      "pages": [16, 18],
+      "section": "Business highlights",
+      "check": ["14.9"]
+    },
+    {
+      "id": "q22",
+      "type": "trap",
+      "question": "What was the standalone revenue of Infosys Limited in FY26?",
+      "answer": "₹1,48,819 crore (standalone, not the ₹1,78,650 crore consolidated figure)",
+      "pages": [209, 33],
+      "section": "Standalone Financial Statements",
+      "check": ["1,48,819"]
+    },
+    {
+      "id": "q23",
+      "type": "trap",
+      "question": "What was the standalone basic EPS for fiscal 2026?",
+      "answer": "₹70.87 (standalone, not the ₹71.58 consolidated figure)",
+      "pages": [210, 81],
+      "section": "Standalone Financial Statements",
+      "check": ["70.87"]
+    },
+    {
+      "id": "q24",
+      "type": "chart",
+      "question": "What was the free cash flow in fiscal 2024?",
+      "answer": "₹23,865 crore (only shown in a chart; lost by Docling)",
+      "pages": [26],
+      "section": "Financial Capital",
+      "check": ["23,865"]
+    },
+    {
+      "id": "q25",
+      "type": "chart",
+      "question": "By how much has Infosys reduced its Scope 1 and 2 emissions?",
+      "answer": "71.22% reduction (only in an infographic; lost by Docling)",
+      "pages": [25],
+      "section": "Value creation model",
+      "check": ["71.22%"]
+    }
+  ]
+}

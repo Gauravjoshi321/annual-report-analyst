@@ -7,6 +7,7 @@ coverage
 # Experiment data: source PDFs and generated outputs stay local
 experiments/data/raw/*
 experiments/data/parsed/*
+experiments/data/cache/
 !experiments/data/**/.gitkeep
 *.pdf
 

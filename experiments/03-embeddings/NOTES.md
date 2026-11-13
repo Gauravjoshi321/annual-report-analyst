@@ -1,6 +1,6 @@
 # 03 · Embeddings
 
-Voyage general vs finance model, output dimensions, and the effect of input_type (document vs query).
+Same fixed-256 chunks, 4 local models (nomic, mxbai, bge-m3, arctic). Also: prefixes on/off and 768 vs 256 dims. Pick the app's model.
 
 ## Results
 

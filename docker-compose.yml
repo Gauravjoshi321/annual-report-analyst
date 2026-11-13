@@ -18,3 +18,17 @@ services:
       # Big annual reports take minutes to parse; default sync wait is too short.
       DOCLING_SERVE_MAX_SYNC_WAIT: "1800"
     restart: unless-stopped
+
+  # Ollama: local embedding models (no rate limits, no cost).
+  # API on http://localhost:11434. Pull a model once:
+  #   docker compose exec ollama ollama pull nomic-embed-text
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-models:/root/.ollama # keep downloaded models across restarts
+    restart: unless-stopped
+
+volumes:
+  ollama-models:

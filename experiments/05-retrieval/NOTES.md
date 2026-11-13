@@ -1,6 +1,6 @@
 # 05 · Retrieval
 
-Dense, BM25/full-text, hybrid with Reciprocal Rank Fusion, reranking, and MMR.
+Dense vs keyword (Postgres full-text) vs hybrid (RRF), then a reranker on top. Target: exact-number and trap questions.
 
 ## Results
 

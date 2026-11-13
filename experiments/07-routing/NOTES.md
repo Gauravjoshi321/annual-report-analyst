@@ -1,6 +1,6 @@
 # 07 · Routing
 
-Logical and semantic routing between indexes, tools and prompts; deciding when not to retrieve.
+Classify the question (financial table / narrative / no retrieval) and filter search by section metadata.
 
 ## Results
 
